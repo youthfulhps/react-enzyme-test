@@ -1,10 +1,12 @@
 import React from "react";
-import Profile from "./Profile";
+// import Profile from "./Profile";
+import HookCounter from "./hookCounter";
 
 function App() {
   return (
     <div>
-      <Profile username="youthfulhps" name="유병호" />
+      <HookCounter />
+      {/* <Profile username="youthfulhps" name="유병호" /> */}
     </div>
   );
 }
